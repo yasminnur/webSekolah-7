@@ -1,0 +1,22 @@
+/* HOMEPAGE 1 */
+.homepage1 .header-box img {
+    width: 400px;
+}
+
+.homepage1 .header-box .text img {
+    width: 82px;
+}
+
+.homepage1 .header-box h1 {
+    color: primary;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.homepage1 .header-box p {
+    color: primary;
+    font-size: 2;
+    font-weight: 500;
+}
+
+/* HOMEPAGE 2 */
