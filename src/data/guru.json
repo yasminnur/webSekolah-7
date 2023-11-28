@@ -1,0 +1,42 @@
+[
+    {
+        "img": "./assets/about/guru1.png",
+        "name":"Mrs.y",
+        "position": "Kepala Sekolah"
+    },
+    {
+        "img": "./assets/about/guru2.png",
+        "name":"Mr.x",
+        "position": "Kepala Staff"
+    },
+    {
+        "img": "./assets/about/guru3.png",
+        "name":"Mrs.y",
+        "position": "Guru Matematika"
+    },
+    {
+        "img": "./assets/about/guru4.png",
+        "name":"Mr.x",
+        "position": "Guru Biologi"
+    },
+    {
+        "img": "./assets/about/guru5.png",
+        "name":"Mrs.y",
+        "position": "Guru Fisika"
+    },
+    {
+        "img": "./assets/about/guru6.png",
+        "name":"Mr.x",
+        "position": "Guru Bahasa"
+    },
+    {
+        "img": "./assets/about/guru7.png",
+        "name":"Mr.y",
+        "position": "Guru Kimia"
+    },
+    {
+        "img": "./assets/about/guru8.png",
+        "name":"Mr.x",
+        "position": "Guru Seni Budaya"
+    }
+]

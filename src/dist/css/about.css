@@ -1,0 +1,157 @@
+.section1 .header-box img {
+  width: 400px;
+}
+
+.about2 img {
+  margin: 0 0 32px 0;
+}
+.about2 h1 {
+  color: #444;
+  font-family: SF Pro Rounded, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+.about2,
+.about4,
+.about6 {
+  padding: 160px 0;
+}
+
+.about2 p {
+  color: #787878;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about3 {
+  background-color: #f8f8f8;
+  padding: 120px;
+}
+
+.about3 img {
+  /* background-color: #FFD923; */
+  padding: 20px;
+  border-radius: 80px;
+  align-items: flex-end;
+}
+
+.about3 .unggul1 img {
+  width: 80px;
+  background-color: #ffd923;
+}
+
+.about3 .unggul2 img {
+  width: 80px;
+  background-color: #ff5f5f;
+}
+
+.about3 .unggul3 img {
+  width: 80px;
+  background-color: #1fa7ff;
+}
+
+.about3 h1 {
+  color: #444;
+  font-family: SF Pro Rounded, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+
+.about3 h4 {
+  color: #444;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about3 p {
+  color: #787878;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about3 .unggul .row {
+  margin: 0 0 32px 0;
+}
+
+.about4 .play {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about4 .gambar {
+  width: 100%; /* Pastikan gambar memenuhi lebar parent */
+  border-radius: 24px;
+}
+
+.about4 h1 {
+  color: #404040;
+  font-family: SF Pro Rounded, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+
+.about4 p {
+  color: #3a3b41;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about4 .tulisan {
+  margin: 0 0 40px 0;
+}
+
+.about5 h1 {
+  color: #404040;
+  font-family: SF Pro Rounded, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+  margin: 0 0 40px 0;
+}
+
+.about5 .card-title {
+  color: #404040;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.about5 .card-text {
+  color: #787878;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about5 .card {
+  border: none;
+}
+
+.about5 {
+  padding: 120px;
+}
+

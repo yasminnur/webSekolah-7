@@ -1,0 +1,17 @@
+[
+    {
+        "img":"./assets/beranda/mengajar.png",
+        "title":"Kegiatan Belajar Mengajar Offline Dimulai",
+        "desc":"Kegiatan yang adakan saat siswa selesai melakuakan studi sekolah"
+    },
+    {
+        "img":"./assets/beranda/rapot.png",
+        "title":"Pengambilan Raport Semester Ganjil",
+        "desc":"Kegiatan yang adakan saat siswa selesai melakuakan studi sekolah"
+    },
+    {
+        "img":"./assets/beranda/belajar.png",
+        "title":"Jam Belajar Yang Efektif Pada Anak 8 - 12 Tahun",
+        "desc":"Kegiatan yang adakan saat siswa selesai melakuakan studi sekolah"
+    }
+]

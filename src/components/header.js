@@ -1,6 +1,4 @@
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
-import { data } from '../data/nav.js'
-import {NavLink} from "react-bootstrap";
 
 export default function Header() {
   return (
@@ -13,15 +11,11 @@ export default function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
-            {data.map((item) => (
-              <div key={item.id} href="#" className="group">
-              <NavLink to={item.path}>{item.name}</NavLink>
-              {/* <Nav.Link href="#">Tentang Kita</Nav.Link>
-              <Nav.Link href="#">Berita</Nav.Link>
+              <Nav.Link href="/">Beranda</Nav.Link>
+              <Nav.Link href="/about">Tentang Kita</Nav.Link>
+              <Nav.Link href="/berita">Berita</Nav.Link>
               <Nav.Link href="/galeri">Galeri</Nav.Link>
-              <Nav.Link href="#">Kontak</Nav.Link> */}
-              </div>
-        ))}
+              <Nav.Link href="/kontak">Kontak</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="#">

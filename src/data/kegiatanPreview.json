@@ -1,0 +1,14 @@
+[
+    {
+        "img":"./assets/beranda/mengajar.png",
+        "title": "Belajar Mengajar"
+    },
+    {
+        "img":"./assets/beranda/belajar.png",
+        "title": "Sharing Session"
+    },
+    {
+        "img":"./assets/beranda/kelulusan.png",
+        "title": "Kelulusan"
+    }
+]

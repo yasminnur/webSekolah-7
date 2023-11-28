@@ -8,7 +8,7 @@
         {
             "id": "2",
             "name": "About",
-            "path": "/about"
+            "path": "../pages/about.js"
         },
         {
             "id": "3",
