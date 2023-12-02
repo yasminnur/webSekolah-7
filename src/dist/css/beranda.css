@@ -1,12 +1,64 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+/* SMALL */
+@media (min-width: 320px) {
+  .section2 .konten {
+  }
+
+  .section2 .h1 {
+    color: #fff;
+    font-family: SF Pro Rounded;
+    /* font-size: 48px; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.44px;
+  }
+  .section2 .unggul1,
+  .section2 .unggul2,
+  .section2 .unggul3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    color: #fff;
+    text-align: right;
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .tulisan {
+    margin: -30px 0 0 0;
+  }
+
+  .section1 {
+    background-color: #FAFAFA;
+  }
+}
+
+/* MEDIUM  */
 @media (max-width: 767px) {
   .header-box img {
     width: 100%; /* Sesuaikan dengan lebar parent container */
     max-width: 15em; /* Hilangkan batas maksimum ukuran gambar jika ada */
   }
+
+  .section2 {
+    margin-top: 0px;
+  }
 }
+
+/* LAPTOP */
+@media (min-width: 1024px) {
+  .section2 {
+    margin-top: -45px;
+  }
+}
+
 .section1 .header-box .text img,
 .section3 .header-box .text img,
 .section5 .header-box .text img {
@@ -19,16 +71,11 @@
   src: url("https://path/to/SF-Pro-Rounded.woff2") format("woff2");
 }
 
-.section1 .header-box h1,
+
 .section3 .header-box h1,
 .section5 .header-box h1 {
   font-family: "SF Pro Rounded", sans-serif;
   color: #404040;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.68px;
   margin: 0px 0px 16px 0px;
 }
 
@@ -65,63 +112,7 @@
 .section5,
 .berita,
 .sponsor {
-  /* margin: 0 160px; */
   margin: 160px 0;
-}
-/* SMALL */
-@media (min-width: 320px) {
-  .section2 .konten {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .section2 .judul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .section2 .h1 {
-    color: #fff;
-    font-family: SF Pro Rounded;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.44px;
-  }
-  .section2 .unggul1,
-  .section2 .unggul2,
-  .section2 .unggul3 {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    justify-content: center !important;
-    color: #fff;
-    text-align: right;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-}
-
-@media (min-width: 768px) {
-  .section2 {
-    margin-top: 0px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .section2 {
-    margin-top: -45px;
-  }
 }
 
 .section2 img {
@@ -168,7 +159,6 @@ a {
 .kegiatan h1 {
   color: #404040;
 font-family: SF Pro Rounded, sans-serif;
-font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;

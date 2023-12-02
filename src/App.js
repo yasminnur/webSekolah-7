@@ -1,8 +1,7 @@
-// import "./App.css";
 import Galeri from "./pages/galeri";
 import Beranda from "./pages/beranda";
 import About from "./pages/about";
-import Berita from "./pages/berita";
+import News from "./pages/news";
 import Kontak from "./pages/kontak";
 import BeritaDetail from "./pages/beritaDetail";
 import Header from "./components/header";
@@ -16,7 +15,7 @@ function App() {
         <Route path="/" Component={Beranda} />
         <Route path="/galeri" Component={Galeri} />
         <Route path="/about" Component={About} />
-        <Route path="/berita" Component={Berita} />
+        <Route path="/news" Component={News} />
         <Route path="/beritaDetail" Component={BeritaDetail}/>
         <Route path="/kontak" Component={Kontak}/>
       </Routes>

@@ -1,0 +1,47 @@
+[
+    {
+        "img":"./assets/galeri/galeri1.png",
+        "title":"Belajar Mengajar",
+        "desc":"Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at"
+    },
+    {
+        "img":"./assets/galeri/galeri2.png",
+        "title":"Sharing Session",
+        "desc":"Kegiatan menukar pendapat dan pikiran anatara guru dan siswa"
+    },
+    {
+        "img":"./assets/galeri/galeri3.png",
+        "title":"Presentasi Projek",
+        "desc":"Kegiatan menunjukan hasil pekerjaan dari guru untuk melatih keberanian"
+    },
+    {
+        "img":"./assets/galeri/galeri4.png",
+        "title":"Belajar Mengajar",
+        "desc":"Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at"
+    },
+    {
+        "img":"./assets/galeri/galeri5.png",
+        "title":"Sharing Session",
+        "desc":"Kegiatan menukar pendapat dan pikiran anatara guru dan siswa"
+    },
+    {
+        "img":"./assets/galeri/galeri6.png",
+        "title":"Presentasi Projek",
+        "desc":"Kegiatan menunjukan hasil pekerjaan dari guru untuk melatih keberanian"
+    },
+    {
+        "img":"./assets/galeri/galeri7.png",
+        "title":"Belajar Mengajar",
+        "desc":"Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at"
+    },
+    {
+        "img":"./assets/galeri/galeri8.png",
+        "title":"Sharing Session",
+        "desc":"Kegiatan menukar pendapat dan pikiran anatara guru dan siswa"
+    },
+    {
+        "img":"./assets/galeri/galeri9.png",
+        "title":"Presentasi Projek",
+        "desc":"Kegiatan menunjukan hasil pekerjaan dari guru untuk melatih keberanian"
+    }
+]

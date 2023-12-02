@@ -1,0 +1,10 @@
+.kontak2 button {
+    border-radius: 50px;
+    background-color: #2ECB89;
+    border: none;
+    padding: 12px 40px;
+}
+
+.kontak2 p {
+    color: #949494;
+}

@@ -1,0 +1,16 @@
+.galeri2 .card {
+    border: none;
+    box-shadow: none;
+}
+
+.galeri2 .card-title {
+    font-size: 18px;
+}
+
+.galeri2 .card-text {
+    font-size: 15px;
+}
+
+.galeri2 .card-img {
+    border-radius: 8px;
+}

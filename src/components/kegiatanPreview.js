@@ -25,7 +25,7 @@ export default function BeritaPreview() {
                   style={{ objectFit: "cover", height: "320px" }}
                 />
                 <Card.Body className="d-flex align-items-center justify-content-between">
-                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Title className="fs-5">{item.title}</Card.Title>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="1em"

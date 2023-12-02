@@ -13,7 +13,7 @@ export default function Header() {
             <Nav className="mx-auto">
               <Nav.Link href="/">Beranda</Nav.Link>
               <Nav.Link href="/about">Tentang Kita</Nav.Link>
-              <Nav.Link href="/berita">Berita</Nav.Link>
+              <Nav.Link href="/news">Berita</Nav.Link>
               <Nav.Link href="/galeri">Galeri</Nav.Link>
               <Nav.Link href="/kontak">Kontak</Nav.Link>
             </Nav>

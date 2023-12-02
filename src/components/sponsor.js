@@ -10,9 +10,9 @@ export default function KegiatanPreview() {
   }, []);
   return (
     <>
-     <Row className="gambar justify-content-center mx-auto my-auto">
+     <Row className="gambar justify-content-center align-items-center mx-auto my-auto">
   {jsonData.map((item, index) => (
-    <Col key={index} xs={6} sm={6} md={3} lg={1} xl={1} className="group mx-auto my-3">
+    <Col key={index} xs={6} sm={6} md={3} lg={1} xl={1} className="group mx-lg-auto my-3">
       <a href="#" className="text-no-decoration">
         <img
           src={item.img}

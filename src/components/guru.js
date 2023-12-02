@@ -12,16 +12,16 @@ export default function Guru() {
     <>
       <Row className="d-flex flex-wrap">
         {jsonData.map((item, index) => (
-          <Col key={index} xs={12} sm={6} md={4} lg={3} xl={3} className="bio">
+          <Col key={index} xs={12} sm={12} md={4} lg={3} xl={3}>
             <a href="#" className="group">
               <Card className=""
-                style={{ width: "100%", height: "408px", marginBottom: "32px"}}
+                style={{ width: "100%", height: "390px", marginBottom: "32px"}}
               >
                 <Card.Img
                   style={{ objectFit: "cover", height: "320px", borderRadius:"24px" }}
-                  // variant="top"
+                  variant="top"
                   src={item.img}
-                  className="foto"
+                  className="img-fluid foto"
                 />
                 <Card.Body style={{paddingTop: "24px"}}>
                   <Card.Title>{item.name}</Card.Title>

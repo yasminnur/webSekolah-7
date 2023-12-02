@@ -1,22 +1,33 @@
 import { Container, Row, Col, Card, Nav } from "react-bootstrap";
+import DataGaleri from "../components/galeri"
+import "../dist/css/galeri.css"
 export default function Galeri() {
   return (
-      <>
-          {/* SECTION 1 */}
-      <div className="homepage1">
+    <>
+      {/* SECTION 1 */}
+      <div className="section1">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
-            <Row className="header-box d-flex align-items-center">
-              <Col lg="6" className="text">
-                <img src="./assets/beranda/logo.png" alt="" />
-                <h1>Galeri</h1>
-                <p>
-                Halaman Yang Akan Memberikan 
-Dokumentasi Kegiatan Sekolah
-                </p>
+            <Row className="header-box d-flex align-items-center text-center text-md-start">
+              <Col md="6" className="text">
+                <img
+                  src="./assets/beranda/logo.png"
+                  alt=""
+                  className="logo img-fluid p-3 p-md-0 p-lg-0"
+                />
+                <div className="tulisan">
+                  <h1 className="fs-1 fw-bold">Galeri</h1>
+                  <p className="fs-5">
+                    Halaman Yang Akan Memberikan Dokumentasi Kegiatan Sekolah
+                  </p>
+                </div>
               </Col>
-              <Col lg="6" className="pt-lg-0 pt-5 text-center">
-                <img src="../assets/galeri/utama.png" alt="ilustrasi" />
+              <Col md="6" className="pt-lg-0 pt-5 text-center">
+                <img
+                  src="../assets/galeri/utama.png"
+                  alt="ilustrasi"
+                  className="img-fluid mx-auto"
+                />
               </Col>
             </Row>
           </Container>
@@ -24,26 +35,18 @@ Dokumentasi Kegiatan Sekolah
       </div>
 
       {/* SECTION 2 */}
-      <div className="">
+      <div className="galeri2">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row>
-              <h1>Kumpulan Kegiatan Sekolah</h1>
+              <h1 className="fs-1 fw-bold text-center mb-4">Kumpulan Kegiatan Sekolah</h1>
             </Row>
             <Row>
-            <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./assets/galeri/galeri1.png" />
-      <Card.Body>
-        <Card.Title>Belajar Mengajar</Card.Title>
-        <Card.Text>
-        Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at
-        </Card.Text>
-      </Card.Body>
-    </Card>
+                <DataGaleri />
             </Row>
-</Container>
+          </Container>
         </header>
-        </div>
-      </>
-  )
+      </div>
+    </>
+  );
 }
