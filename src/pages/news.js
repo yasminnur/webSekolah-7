@@ -41,7 +41,7 @@ export default function News() {
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row>
-              <h1 className="fs-1 text-center text-md-start">
+              <h1 className="fs-1 fw-bold text-center text-md-start">
                 Informasi Terbaru
               </h1>
               <div>
@@ -74,11 +74,11 @@ export default function News() {
       </section>
 
       {/* SECTION 3 */}
-      <section className="section3">
+      <section className="section3 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
-            <Row className="mb-3 px-0 px-md-4">
-              <Nav variant="underline" defaultActiveKey="/home">
+            <Row className="mb-3 px-3">
+              <Nav className="d-block d-md-flex" variant="underline" defaultActiveKey="/home">
                 <Nav.Item>
                   <Nav.Link href="#">Semua</Nav.Link>
                 </Nav.Item>
@@ -98,30 +98,30 @@ export default function News() {
               <Berita />
             </Row>
             <Row>
-            <div className="mt-2 h-8 justify-content-start justify-content-md-between align-items-md-center d-flex d-flex-md-row d-flex-col mt-10">
-                <p className="text-neutral-700 text-base lg:text-xl font-normal">
+            <div className="mt-2 h-8 justify-content-start justify-content-md-between align-items-md-center d-md-flex flex-md-row mt-10">
+                <p className="">
                   Menampilkan 10 Dari 21 Data
                 </p>
                 <div className="justify-content-start align-items-center gap-5 d-flex">
-                  <p className="text-neutral-700 text-base lg:text-xl font-normal">
+                  <p className="">
                     Halaman
                   </p>
-                  <div className="justify-content-center align-items-center gap-2 d-flex">
+                  <div className="justify-content-center align-items-center d-flex">
                     <div className="w-6 h-6" />
-                    <div className="justify-content-start align-items-start gap-2 d-flex">
+                    <div className="justify-content-start align-items-start d-flex">
                       <img src="./assets/berita/left.png" alt="" />
-                      <div className="px-2 d-flex-col justify-content-start align-items-start gap-2 d-inline-flex">
-                        <p className="text-blue-500 text-base lg:text-xl font-medium underline">
+                      <div className="px-2 d-flex-col justify-content-start align-items-start  d-inline-flex">
+                        <p className="">
                           1
                         </p>
                       </div>
-                      <div className="px-2 d-flex-col justify-content-start align-items-start gap-2 d-inline-flex">
-                        <p className="text-neutral-700 text-base lg:text-xl font-normal">
+                      <div className="px-2 d-flex-col justify-content-start align-items-start d-inline-flex">
+                        <p className="">
                           2
                         </p>
                       </div>
-                      <div className="px-2 d-flex-col justify-content-start align-items-start gap-2 d-inline-flex">
-                        <p className=" font-normal">
+                      <div className="px-2 d-flex-col justify-content-start align-items-start  d-inline-flex">
+                        <p className="">
                           3
                         </p>
                       </div>

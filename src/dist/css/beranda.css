@@ -3,9 +3,6 @@
 }
 /* SMALL */
 @media (min-width: 320px) {
-  .section2 .konten {
-  }
-
   .section2 .h1 {
     color: #fff;
     font-family: SF Pro Rounded;
@@ -36,19 +33,91 @@
   }
 
   .section1 {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
+  }
+
+  .kegiatan .card-img {
+    height: 180px;
+  }
+
+  .kegiatan .card-body {
+    padding: 5px 20px;
+  }
+
+  .kegiatan .card {
+    background-color: #d2d2d2;
+    color: #747474;
+    height: 250px;
+  }
+
+  .kegiatan .card-title {
+    font-size: 15px;
+  }
+
+  .kegiatan .card {
+    background-color: #d2d2d2;
+    color: #747474;
+    height: 280px;
+  }
+
+  .kegiatan .card-img {
+    height: 220px; /* Atur tinggi gambar sesuai kebutuhan Anda */
+    object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
   }
 }
 
 /* MEDIUM  */
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .header-box img {
     width: 100%; /* Sesuaikan dengan lebar parent container */
     max-width: 15em; /* Hilangkan batas maksimum ukuran gambar jika ada */
   }
 
   .section2 {
-    margin-top: 0px;
+    margin-top: -223px;
+  }
+  .section1 .container {
+    margin: -180px 0 0 0;
+  }
+  .kegiatan .card-img {
+    height: 210px;
+  }
+
+  .kegiatan .card-body {
+    padding: 5px 20px;
+  }
+
+  .kegiatan .card {
+    background-color: #d2d2d2;
+    color: #747474;
+    height: 280px;
+  }
+
+  .kegiatan .card-title {
+    font-size: 15px;
+  }
+
+  .section1 h1,
+  .section3 h1,
+  .section5 h1 {
+    font-family: "SF Pro Rounded", sans-serif;
+    color: #404040;
+    font-size: 25px;
+  }
+  .section1 .header-box p,
+  .section3 .header-box p,
+  .section5 .header-box p {
+    color: #787878;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 32px 0px;
+  }
+
+  .kegiatan .card-img {
+    height: 215px; /* Atur tinggi gambar sesuai kebutuhan Anda */
+    object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
   }
 }
 
@@ -56,6 +125,58 @@
 @media (min-width: 1024px) {
   .section2 {
     margin-top: -45px;
+  }
+
+  .kegiatan .card-img {
+    height: 270px;
+  }
+
+  .kegiatan .card-body {
+    padding: 5px 20px;
+  }
+
+  .kegiatan .card {
+    background-color: #d2d2d2;
+    color: #747474;
+    height: 345px;
+  }
+
+  .kegiatan .card-title {
+    font-size: 18px;
+  }
+
+  .section1 h1,
+  .section3 h1,
+  .section5 h1 {
+    font-family: "SF Pro Rounded", sans-serif;
+    color: #404040;
+    font-size: 28px;
+  }
+
+  .section1 .header-box p,
+  .section3 .header-box p,
+  .section5 .header-box p {
+    color: #787878;
+    font-size: 19px;
+    margin: 0px 0px 32px 0px;
+  }
+
+  .section2 {
+    margin-top: -180px;
+  }
+
+  .beranda6 .card-title {
+    font-size: 20px;
+    color: #404040;
+  }
+  .beranda6 .card-text {
+    font-size: 15px;
+    color: #787878;
+  }
+
+  .kegiatan .card-img {
+    height: 270px; /* Atur tinggi gambar sesuai kebutuhan Anda */
+    object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
   }
 }
 
@@ -71,36 +192,17 @@
   src: url("https://path/to/SF-Pro-Rounded.woff2") format("woff2");
 }
 
-
-.section3 .header-box h1,
-.section5 .header-box h1 {
-  font-family: "SF Pro Rounded", sans-serif;
-  color: #404040;
-  margin: 0px 0px 16px 0px;
-}
-
-.section1 .header-box p,
-.section3 .header-box p,
-.section5 .header-box p {
-  color: #787878;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin: 0px 0px 32px 0px;
-}
-
-.section1 button, 
+.section1 button,
 .section3 button,
-.section5 button  {
+.section5 button {
   background-color: #2ecb89;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   line-height: normal;
-  padding: 12px 40px;
+  border: none;
+  /* padding: 12px 40px; */
 }
-
 
 .section2 {
   background-color: #153f5a;
@@ -110,7 +212,7 @@
 .section3,
 .kegiatan,
 .section5,
-.berita,
+.beranda6,
 .sponsor {
   margin: 160px 0;
 }
@@ -119,6 +221,10 @@
   padding: 20px;
   border-radius: 80px;
   align-items: flex-end;
+}
+
+.lihat-semua {
+  color: #2ED67B;
 }
 
 .section2 .col {
@@ -144,7 +250,7 @@
 }
 
 .kegiatan .card,
-.berita .card {
+.beranda6 .card {
   border: none;
 }
 
@@ -152,27 +258,13 @@ a {
   text-decoration: none;
 }
 
-.berita .nav .nav-link {
+.beranda6 .nav .nav-link {
   color: black;
 }
 
 .kegiatan h1 {
   color: #404040;
-font-family: SF Pro Rounded, sans-serif;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.44px;
-margin: 0 0 64px 0;
-}
-
-.kegiatan .card-body {
-  padding: 24px;
-}
-
-.kegiatan .card {
-  background-color: #D2D2D2;
-  color: #747474
+  font-family: SF Pro Rounded, sans-serif;
 }
 
 .kegiatan .group :hover {
@@ -185,23 +277,7 @@ margin: 0 0 64px 0;
   color: #fff;
 }
 
-.berita .card-title {
-  color: #404040;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.berita .card-text {
-  color: #787878;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.berita .card-body {
+.beranda6 .card-body {
   padding: 24px;
 }
 
@@ -217,12 +293,19 @@ line-height: normal;
 
 .sponsor p {
   color: #787878;
-text-align: center;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin: 0 0 64px 0;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* margin: 0 0 64px 0; */
 }
+
+.sponsor .logoSponsor {
+  width: 95px;
+}
+
+
+
 
 

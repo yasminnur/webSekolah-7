@@ -1,16 +1,16 @@
 [
     {
-        "img":"./assets/beranda/mengajar.png",
+        "img":"./assets/berita/berita1.png",
         "date":"12 Desember 2020",
         "title":"Kegiatan Belajar Mengajar Offline Dimulai"
     },
     {
-        "img":"./assets/beranda/rapot.png",
+        "img":"./assets/berita/berita2.png",
         "date":"12 Desember 2020",
-        "title":"Pengambilan Raport Semester Ganjil"
+        "title":"Penambilan Raport Semester Ganjil 2021 - 2022"
     },
     {
-        "img":"./assets/beranda/belajar.png",
+        "img":"./assets/berita/berita3.png",
         "date":"12 Desember 2020",
         "title":"Jam Belajar Yang Efektif Pada Anak 8 - 12 Tahun"
     }

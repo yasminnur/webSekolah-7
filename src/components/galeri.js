@@ -10,24 +10,29 @@ export default function BeritaPreview() {
   }, []);
   return (
     <>
-      <div className="d-flex flex-wrap gap-4 gap-md-5 gap-lg-4">
-        {jsonData.map((item, index) => (
-          <a href="#" className="group">
-            <Col xs={12} sm={12} md={4} lg={4} xl={2}>
-              <Card
-                style={{ width: "18rem" }}
-                className=""
-              >
+      <Container fluid>
+        <Row>
+          {jsonData.map((item, index) => (
+            <Col
+              key={index}
+              xs={12}
+              sm={12}
+              md={4}
+              lg={4}
+              xl={3}
+              className="mb-4"
+            >
+              <Card style={{ width: "100%" }}>
                 <Card.Img src={item.img} className="object-cover" />
                 <Card.Body className="ps-0">
-                  <Card.Title className="">{item.title}</Card.Title>
-                  <Card.Text className="">{item.desc}</Card.Text>
+                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Text>{item.desc}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-          </a>
-        ))}
-        </div>
+          ))}
+        </Row>
+      </Container>
     </>
   );
 }

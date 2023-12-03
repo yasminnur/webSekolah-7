@@ -19,7 +19,7 @@ function App() {
         <Route path="/beritaDetail" Component={BeritaDetail}/>
         <Route path="/kontak" Component={Kontak}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

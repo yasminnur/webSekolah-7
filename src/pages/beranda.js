@@ -1,6 +1,6 @@
-import { Container, Row, Col, Card, Nav } from "react-bootstrap";
+import { Container, Row, Col, Card, Nav, Button } from "react-bootstrap";
 import "../dist/css/beranda.css";
-import BeritaPreview from "../components/beritaPreview";
+import GaleriPreview from "../components/galeriPreview";
 import KegiatanPreview from "../components/kegiatanPreview";
 import Sponsor from "../components/sponsor";
 
@@ -8,29 +8,29 @@ export default function Beranda() {
   return (
     <>
       {/* SECTION 1 */}
-      <section className="section1">
+      <section className="section1 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
-          <Container className="mt-4 mt-md-0">
+          <Container className="">
             <Row className="header-box d-flex align-items-center text-center text-md-start">
               <Col md="6" className="text">
                 <img src="./assets/beranda/logo.png" alt="" className="logo img-fluid p-3 p-md-0 p-lg-0"/>
                 <div className="tulisan">
-                <h1 className="fs-1 fw-bold ">Tuntut Ilmu Untuk Masa Depan Yang Cerah</h1>
-                <p className="fs-5">
+                <h1 className="fw-bold ">Tuntut Ilmu Untuk Masa Depan Yang Cerah</h1>
+                <p className="">
                   jelajahi semua pengetahuan dan ilmu bermanfaat yang berguna
                   untuk kehidupan anda kedepannya agar lebih bermanfaat dalam
                   hidup anda dan orang lain
                 </p>
-                <button className="fs-5 btn btn-lg rounded-5 me-2 px-4">
+                <Button className="btn btn-lg rounded-5 me-2 px-4">
                   Mulai Belajar
-                  </button>
+                  </Button>
                   </div>
               </Col>
-              <Col md="6" className="pt-lg-0 pt-5 text-center">
+              <Col md="6" className="jempol pt-5 text-center">
                 <img
                   src="../assets/beranda/utama.png"
                   alt="ilustrasi"
-                  className="img-fluid mx-auto"
+                  className="img-fluid jempol"
                 />
               </Col>
             </Row>
@@ -76,7 +76,7 @@ export default function Beranda() {
       </section>
 
       {/* SECTION 3 */}
-      <div className="section3">
+      <section className="section3 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="mt-4 mt-md-0">
             <Row className="header-box d-flex align-items-center text-center text-md-start">
@@ -90,52 +90,61 @@ export default function Beranda() {
               <Col md="6" className="text pt-lg-0 pt-5">
                 <img src="./assets/beranda/logo.png" alt="" className="logo img-fluid p-3 p-md-0 p-lg-0" />
                 <div className="tulisan">
-                <h1 className="fs-1 fw-bold">Sekolah Alam Insan Mulia Berkarya</h1>
-                <p className="fs-5">
+                <h1 className="fw-bold">Sekolah Alam Insan Mulia Berkarya</h1>
+                <p className="">
                   Sekolah Kami merupakan sekolah informal yang dikelola untuk
                   membantu anak mengembangkan bakat dan kemampuannya. Dengan
                   memberikan kurikulum terbaik agar anak bisa memilih minatnya
                   dan fokus mengembangkan minat tersebut. Sekolah ini didirikan
                   sejak tahun 1989 dan terus berkembang
                 </p>
-                <button className="fs-5 btn btn-lg rounded-5 me-2 px-4">
+                <Button className="btn btn-lg rounded-5 me-2 px-4">
                   Mulai Belajar
-                  </button>
+                  </Button>
                   </div>
               </Col>
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 4  */}
-      <div className="kegiatan">
+      <section className="kegiatan px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
-            <h1 className="fs-1 text-center text-md-start">Kumpulan Kegiatan Sekolah</h1>
+            <Row>
+              <div className="mb-3 d-md-flex align-items-center justify-content-between">
+                <div className="align-items-center">
+                  <h1 className="fs-2 fw-bold text-center text-md-start">Kumpulan Kegiatan Sekolah</h1>
+                  </div>
+                <div className="align-items-center text-center mt-3 mt-md-0">
+                  <p className="lihat-semua">Lihat Semua</p>
+                </div>
+              </div>
+            </Row>
             <Row>
               <KegiatanPreview />
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 5  */}
-      <div className="section5">
+      <section className="section5 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="header-box d-flex align-items-center text-center text-md-start">
               <Col md="6" className="text p-2">
                 <img src="./assets/beranda/logo.png" alt="" className="logo img-fluid p-3 p-md-0 p-lg-0" />
                 <div className="tulisan">
-                <h1 className="fs-1 fw-bold">Salurkan Minat Bakat Anak</h1>
-                <p className="fs-5">
+                <h1 className="fw-bold">Salurkan Minat Bakat Anak</h1>
+                <p className="">
                   kami membuka pendaftaran baru tahun ajaran 2022. segera
                   daftarkan anak anda
                 </p>
-                <button className="fs-5 btn btn-lg rounded-5 me-2 px-4">
+                <Button className="btn btn-lg rounded-5 me-2 px-4">
                   Mulai Belajar
-                  </button>
+                  </Button>
                   </div>
               </Col>
               <Col md="6" className="text-center">
@@ -148,13 +157,15 @@ export default function Beranda() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 6 */}
-      <div className="berita">
+      <section className="beranda6 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="">
             <Row className="mb-3 px-0 px-md-4">
+              <div className="d-flex justify-content-between align-items-center">
+                {/* <div> */}
               <Nav className="justify-content-center justify-content-md-start" variant="underline" defaultActiveKey="/home">
                 <Nav.Item>
                   <Nav.Link href="#">Semua</Nav.Link>
@@ -169,19 +180,28 @@ export default function Beranda() {
                     Pengumuman
                   </Nav.Link>
                 </Nav.Item>
-              </Nav>
+                  </Nav>
+                  {/* </div> */}
+                <div className="align-items-center">
+                <Nav.Item>
+                  <Nav.Link href="#" eventKey="link-2" className="lihat-semua">
+                    Lihat Semua
+                  </Nav.Link>
+                </Nav.Item>
+                </div>
+                </div>
             </Row>
             <Row>
-              <BeritaPreview />
+              <GaleriPreview />
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 7 */}
-      <div className="sponsor">
+      <section className="sponsor ">
         <header className="w-100 min-vh-100 d-flex align-items-center">
-          <Container>
+          <Container className="mx-4">
             <Row className="text d-flex justify-content-center text-center">
               <h1 className="fs-1 fw-bold">Partner Kerja Sama</h1>
               <p className="fs-5">
@@ -192,7 +212,7 @@ export default function Beranda() {
             <Sponsor />
           </Container>
         </header>
-      </div>
+      </section>
     </>
   );
 }

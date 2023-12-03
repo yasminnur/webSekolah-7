@@ -92,18 +92,12 @@ export default function About() {
                 </Row>
                 <Row className="unggul2 align-items-center justify-content-md-start justify-content-center">
                   <Col xs="auto">
-                    <img
-                      src="./assets/beranda/clock.png"
-                      alt="ilustrasi"
-                      className="unggul1"
-                    />
+                    <img src="./assets/beranda/clock.png" alt="ilustrasi" />
                   </Col>
                   <Col className="mt-3 mt-md-0">
-                    <h4 className="fs-4">
-                      Efektivitas Waktu Saat Belajar di Sekolah
+                    <h4 className="fs-4">Efektivitas Waktu Saat Belajar di Sekolah
                     </h4>
-                    <p className="fs-5">
-                      Waktu belajar yang dirancang agar para siswa tidak jenuh
+                    <p className="fs-5">Waktu belajar yang dirancang agar para siswa tidak jenuh
                     </p>
                   </Col>
                 </Row>
@@ -130,7 +124,9 @@ export default function About() {
           <Container className="block">
             <Row className="tulisan text-center">
               <h1 className="fs-1">Video Profil</h1>
-              <p className="fs-5">Berikut adalah video profil dari sekolah kami</p>
+              <p className="fs-5">
+                Berikut adalah video profil dari sekolah kami
+              </p>
             </Row>
             <Row className="vidio justify-content-center position-relative">
               <Col xs={12} className="text-center">

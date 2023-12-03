@@ -10,22 +10,22 @@ export default function BeritaPreview() {
   }, []);
   return (
     <>
-      <Row className="mx-auto">
+      <Container fluid className="px-3">
+      <Row className="">
         {jsonData.map((item, index) => (
-          <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+          <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <a href="#" className="group text-no-decoration">
               <Card
-                style={{ width: "100%", height: "404px", borderRadius: "16px" }}
+                style={{ width: "100%", borderRadius: "16px" }}
                 className="shadow mb-5 overflow-hidden"
               >
                 <Card.Img
-                  variant="top"
                   src={item.img}
                   className="rounded-top"
-                  style={{ objectFit: "cover", height: "320px" }}
+                  style={{ objectFit: "cover" }}
                 />
                 <Card.Body className="d-flex align-items-center justify-content-between">
-                  <Card.Title className="fs-5">{item.title}</Card.Title>
+                  <Card.Title className="">{item.title}</Card.Title>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="1em"
@@ -39,7 +39,8 @@ export default function BeritaPreview() {
             </a>
           </Col>
         ))}
-      </Row>
+        </Row>
+        </Container>
     </>
   );
 }

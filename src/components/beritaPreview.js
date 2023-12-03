@@ -2,7 +2,7 @@ import { Container, Row, Col, Card, Nav, NavItem } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
 import data from "../data/beritaPreview.json";
 
-export default function BeritaPreview() {
+export default function GaleriPreview() {
   const [jsonData, setJsonData] = useState([]);
 
   useEffect(() => {
@@ -10,7 +10,7 @@ export default function BeritaPreview() {
   }, []);
   return (
     <>
-      <Container fluid className="px-3">
+      <Container fluid className="px-4">
       <Row className="d-flex justify-content-center">
         {jsonData.map((item, index) => (
           <Col key={index} xs={12} sm={12} md={4} lg={4} xl={2} className="mb-4">
@@ -25,25 +25,6 @@ export default function BeritaPreview() {
         ))}
       </Row>
       </Container>
-      
-      {/* <div className="d-flex flex-wrap gap-4 gap-lg-4">
-        {jsonData.map((item, index) => (
-          <a href="#" className="group">
-            <Col xs={12} sm={12} md={4} lg={4} xl={2}>
-              <Card
-                style={{ width: "18rem" }}
-                className=""
-              >
-                <Card.Img  src={item.img} className="object-cover" />
-                <Card.Body className="ps-0">
-                  <Card.Text className="">{item.date}</Card.Text>
-                  <Card.Title className="">{item.title}</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
-          </a>
-        ))}
-        </div> */}
     </>
   );
 }

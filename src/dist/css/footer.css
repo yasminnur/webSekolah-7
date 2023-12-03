@@ -1,4 +1,58 @@
+/* SMALL */
+@media (min-width: 320px) {
+    .footer .informasi p{
+        font-size: 12px;
+    }
+    .footer  h4{
+        font-size: 14px;
+    }
+
+    .footer .inagata p{
+        font-size: 13px;
+    }
+
+    .footer .copyright p{
+        font-size: 12px;
+    }
+}
+/* MEDIUM  */
+@media (min-width: 767px) {
+    .footer .informasi p{
+        font-size: 15px;
+    }
+    .footer  h4{
+        font-size: 20px;
+    }
+
+    .footer .inagata p{
+        font-size: 15px;
+    }
+
+    .footer .copyright p{
+        font-size: 14px;
+    }
+}
+
+/* LARGE */
+@media (min-width: 1024px) {
+    .footer .copyright p{
+        font-size: 15px;
+    }
+}
 .footer {
     background-color: #153F5A;
     color: white;
+}
+
+.footer img{
+    width: 100px;
+}
+
+.footer  h4{
+    white-space: nowrap;
+}
+
+.footer .informasi p{
+    white-space: nowrap;
+    margin-bottom: 1px;
 }

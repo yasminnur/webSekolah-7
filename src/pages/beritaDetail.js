@@ -11,7 +11,7 @@ export default function BeritaDetail() {
               Kegiatan Belajar Mengajar Offline Dimulai
             </h1>
             <p className="tanggal">12 Desember 2020</p>
-            <img src="./assets/berita/bis.png" alt="" className="bis img-fluid" />
+            <img src="./assets/berita/bis.png" alt="" className="bis img-fluid" style={{width: "100%", height: "100%"}}/>
             <p className="cerita mt-4">
               Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
               kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman
@@ -63,7 +63,7 @@ export default function BeritaDetail() {
               tidak kenal awalnya begitu juga anak-anak kelas 7 yang akhirnya
               bisa bertemu dengan teman kelasnya secara langsung setelah di
               semester ganjil ini hanya bertemu di pembelajaran online. Semuanya
-               hadir demi mewujudkan pembelajaran tatap muka meskipun terbatas.
+              hadir demi mewujudkan pembelajaran tatap muka meskipun terbatas.
             </p>
 
             <p className="bagikan mt-5">Bagikan Artikel</p>
