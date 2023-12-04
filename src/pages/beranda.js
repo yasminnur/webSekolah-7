@@ -42,7 +42,7 @@ export default function Beranda() {
                 <img
                   src="../assets/beranda/utama.png"
                   alt="ilustrasi"
-                  className="img-fluid jempol"
+                  className="img-fluid"
                 />
               </Col>
             </Row>
@@ -96,11 +96,11 @@ export default function Beranda() {
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="mt-4 mt-md-0">
             <Row className="header-box d-flex align-items-center text-center text-md-start">
-              <Col md="6" className="pt-lg-0 pt-lg-4 pt-0 text-center ">
+              <Col md="6" className="orang text-center">
                 <img
                   src="../assets/beranda/kedua.png"
                   alt="ilustrasi"
-                  className="img-fluid mx-auto"
+                  className=""
                 />
               </Col>
               <Col md="6" className="text pt-lg-0 pt-5">
@@ -173,11 +173,11 @@ export default function Beranda() {
                   </Button>
                 </div>
               </Col>
-              <Col md="6" className="text-center">
+              <Col md="6" className="ketiga text-center mt-5 mt-md-0">
                 <img
                   src="../assets/beranda/ketiga.png"
                   alt="ilustrasi"
-                  className="img-fluid mx-auto p-md-3 mt-5 mt-md-0"
+                  className="img-fluid "
                 />
               </Col>
             </Row>
@@ -239,7 +239,7 @@ export default function Beranda() {
       </section>
 
       {/* SECTION 7 */}
-      <section className="sponsor ">
+      <section className="sponsor px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="mx-4">
             <Row className="text d-flex justify-content-center text-center">

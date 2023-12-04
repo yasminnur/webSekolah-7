@@ -12,18 +12,18 @@ export default function GaleriPreview() {
     <>
    <Container fluid className="px-3">
   <div className="jarak d-flex flex-wrap flex-md-nowrap justify-content-center gap-3">
-    {jsonData.map((item, index) => (
-      <a href="#" className="group" key={index}>
+    {jsonData.map((item) => (
+      <div className="">
         <Col>
           <Card style={{ width: '100%', height: '100%' }}>
             <Card.Img src={item.img} className="object-cover" />
-            <Card.Body className="ps-0">
+            <Card.Body className="shadow rounded">
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.desc}</Card.Text>
             </Card.Body>
           </Card>
         </Col>
-      </a>
+      </div>
     ))}
   </div>
 </Container>

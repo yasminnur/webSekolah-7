@@ -5,7 +5,7 @@ export default function Galeri() {
   return (
     <>
       {/* SECTION 1 */}
-      <section className="section1">
+      <section className="section1 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="header-box d-flex align-items-center text-center text-md-start">
@@ -43,6 +43,30 @@ export default function Galeri() {
             </Row>
             <Row>
                 <DataGaleri />
+            </Row>
+            <Row>
+              <div className="mt-2 h-8 justify-content-start justify-content-md-between align-items-md-center d-md-flex flex-md-row mt-10">
+                <p className="">Menampilkan 9 Dari 21 Data</p>
+                <div className="justify-content-start align-items-center gap-5 d-flex">
+                  <p className="">Halaman</p>
+                  <div className="justify-content-center align-items-center d-flex">
+                    <div className="w-6 h-6" />
+                    <div className="justify-content-start align-items-start d-flex">
+                      <img src="./assets/berita/left.png" alt="" />
+                      <div className="px-2 d-flex-col justify-content-start align-items-start  d-inline-flex">
+                        <p className="satu">1</p>
+                      </div>
+                      <div className="px-2 d-flex-col justify-content-start align-items-start d-inline-flex">
+                        <p className="">2</p>
+                      </div>
+                      <div className="px-2 d-flex-col justify-content-start align-items-start  d-inline-flex">
+                        <p className="">3</p>
+                      </div>
+                      <img src="./assets/berita/right.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </Row>
           </Container>
         </header>

@@ -1,7 +1,15 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+.section3,
+.section5,
+.sponsor {
+  margin: 100px 0 100px 0;
+}
 
+.beranda6 .card-body {
+  padding: 4px;
+}
 /* SMALL */
 @media (min-width: 320px) {
   .section2 .h1 {
@@ -22,7 +30,6 @@
     justify-content: center !important;
     color: #fff;
     text-align: right;
-    /* font-size: 24px; */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -66,18 +73,27 @@
   }
 
   .beranda6 .nav-link {
-    color: #8F8F8F;
+    color: #8f8f8f;
   }
-  .beranda6 .lihat-semua{
-    color: #2ED67B;
+  .beranda6 .lihat-semua {
+    color: #2ed67b;
+  }
+
+  .section3 .orang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section3 .orang img {
+    height: 300px;
   }
 }
 
 /* MEDIUM  */
 @media (min-width: 767px) {
   .header-box img {
-    width: 100%; /* Sesuaikan dengan lebar parent container */
-    max-width: 15em; /* Hilangkan batas maksimum ukuran gambar jika ada */
+    width: 100%;
+    max-width: 15em; 
   }
 
   .section2 {
@@ -123,12 +139,36 @@
   }
 
   .kegiatan .card-img {
-    height: 215px; /* Atur tinggi gambar sesuai kebutuhan Anda */
-    object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
+    height: 215px;
+    object-fit: cover;
   }
 
   .beranda6 .nav-menu .nav-link.active {
-    border-bottom: 2px solid #2ECB89;
+    border-bottom: 2px solid #2ecb89;
+  }
+
+  .section3 .orang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    padding:0;
+  }
+  .section3 .orang img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .section5 .ketiga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    padding:0;
+  }
+  .section5 .ketiga img {
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -186,8 +226,22 @@
   }
 
   .kegiatan .card-img {
-    height: 270px; /* Atur tinggi gambar sesuai kebutuhan Anda */
-    object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
+    height: 270px;
+    object-fit: cover;
+  }
+
+  .section1 .jempol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 456px;
+    padding:0;
+    margin-bottom: -15px;
+  }
+  .section1 .jempol img {
+    height: 100%;
+    width: 100%;
+    margin-right: -190px;
   }
 }
 
@@ -212,20 +266,11 @@
   font-style: normal;
   line-height: normal;
   border: none;
-  /* padding: 12px 40px; */
 }
 
 .section2 {
   background-color: #153f5a;
   padding: 80px 0px;
-}
-
-.section3,
-.kegiatan,
-.section5,
-.beranda6,
-.sponsor {
-  margin: 160px 0;
 }
 
 .section2 img {
@@ -235,7 +280,7 @@
 }
 
 .lihat-semua {
-  color: #2ED67B;
+  color: #2ed67b;
 }
 
 .section2 .col {
@@ -268,10 +313,6 @@
 a {
   text-decoration: none;
 }
-
-/* .beranda6 .nav .nav-link {
-  color: black;
-} */
 
 .kegiatan h1 {
   color: #404040;
@@ -309,14 +350,8 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /* margin: 0 0 64px 0; */
 }
 
 .sponsor .logoSponsor {
   width: 95px;
 }
-
-
-
-
-

@@ -13,7 +13,7 @@ export default function About() {
   return (
     <>
       {/* SECTION 1 */}
-      <section className="section1 ">
+      <section className="section1 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="header-box d-flex align-items-center text-center text-md-start">
@@ -175,7 +175,7 @@ export default function About() {
       </section>
 
       {/* SECTION 5 */}
-      <section className="about5">
+      <section className="about5 py-5 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="">
             <Row>
@@ -189,7 +189,7 @@ export default function About() {
       </section>
 
       {/* SECTION 6 */}
-      <section className="about6">
+      <section className="about6 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="text-center">

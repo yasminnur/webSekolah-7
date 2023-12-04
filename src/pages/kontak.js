@@ -4,7 +4,7 @@ export default function Kontak() {
   return (
     <>
       {/* SECTION 1 */}
-      <section className="section1">
+      <section className="section1 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="header-box d-flex align-items-center text-center text-md-start">

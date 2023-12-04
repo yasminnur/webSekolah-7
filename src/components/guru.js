@@ -13,7 +13,7 @@ export default function Guru() {
       <Row className="d-flex flex-wrap">
         {jsonData.map((item, index) => (
           <Col key={index} xs={12} sm={12} md={4} lg={3} xl={3}>
-            <a href="#" className="group">
+            <div className="group">
               <Card className=""
                 style={{ width: "100%", height: "390px", marginBottom: "32px"}}
               >
@@ -28,7 +28,7 @@ export default function Guru() {
                   <Card.Text>{item.position}</Card.Text>
                 </Card.Body>
               </Card>
-            </a>
+            </div>
           </Col>
         ))}
       </Row>

@@ -1,3 +1,6 @@
+.footer {
+    margin-top: 70px;
+}
 /* SMALL */
 @media (min-width: 320px) {
     .footer .informasi p{

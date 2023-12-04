@@ -1,12 +1,14 @@
-/* .section1,
-.about3,
-.about5  {
-  background-color: #FAFAFA;
-} */
 .section1 .header-box img {
   width: 400px;
 }
-
+.section3,
+.section5,
+.sponsor {
+  margin: 100px 0 100px 0;
+}
+ .beranda6 {
+  background-color: #FAFAFA;
+ }
 .about2 img {
   margin: 0 0 32px 0;
 }
@@ -33,13 +35,16 @@
   line-height: normal;
 }
 
-.about3 {
+.about3,
+.section1,
+.about5,
+.about5 .card-body {
   background-color: #f8f8f8;
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
+
 .about3 img {
-  /* background-color: #FFD923; */
   padding: 20px;
   border-radius: 80px;
   align-items: flex-end;
@@ -60,7 +65,6 @@
 .about3 h1 {
   color: #444;
   font-family: SF Pro Rounded, sans-serif;
-  /* font-size: 56px; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -69,7 +73,6 @@
 
 .about3 h4 {
   color: #444;
-  /* font-size: 24px; */
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -162,7 +165,4 @@
   border: none;
 }
 
-.about5 {
-  margin: 120px 40px;
-}
 
