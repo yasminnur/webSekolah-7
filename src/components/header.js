@@ -2,19 +2,17 @@ import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import { useState, useEffect } from 'react';
 import "../dist/css/header.css";
 export default function Header() {
-  const [activePage, setActivePage] = useState('/'); // Default halaman aktif
+  const [activePage, setActivePage] = useState('/');
 
   useEffect(() => {
-    // Mendapatkan path halaman saat ini
     const path = window.location.pathname;
-    // Menetapkan path halaman sebagai halaman aktif
     setActivePage(path);
   }, []);
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="head py-4 px-3 w-100 bg-body-tertiary">
+      <Navbar collapseOnSelect expand="lg" className="head py-4 px-3 w-100">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" className="">
             <img src="./assets/beranda/schools.png" alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
