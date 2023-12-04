@@ -10,7 +10,7 @@ export default function Header() {
   }, []);
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="head py-4 px-3 w-100">
+      <Navbar collapseOnSelect expand="lg" className="fixed-top head py-4 px-3 w-100">
         <Container>
           <Navbar.Brand href="#home" className="">
             <img src="./assets/beranda/schools.png" alt="" />
