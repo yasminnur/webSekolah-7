@@ -8,3 +8,26 @@
 .kontak2 p {
     color: #949494;
 }
+
+.kontak2 h1 {
+    color: var(--Dark, #0F0F0F);
+font-family: SF Pro Rounded, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* MEDIUM  */
+@media (min-width: 767px) {
+    .kontak2 .infor {
+        margin-left: 140px;
+    }
+}
+
+/* LAPTOP */
+@media (min-width: 1024px) {
+    .kontak2 .infor {
+        margin-left: 140px;
+    }
+}

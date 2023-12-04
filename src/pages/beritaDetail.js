@@ -4,7 +4,7 @@ export default function BeritaDetail() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="detail1 pt-5 px-4">
+      <section className="detail1 pt-5 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <h1 className="fs-1 fw-bold">
@@ -73,7 +73,7 @@ export default function BeritaDetail() {
                   src="./assets/berita/link.png"
                   alt=""
                   className="me-4 rounded-circle mx-auto"
-                />
+                  />
                 <img
                   src="./assets/berita/whatsapp.png"
                   alt=""
@@ -88,13 +88,13 @@ export default function BeritaDetail() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 2 */}
-      <section className="section3 px-4">
+      <section className="berita3 px-4 mt-5 mt-md-1">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="d-flex flex-column justify-content-center">
-            <h3 className="fw-bold text-center text-md-start mb-3">
+            <h3 className="ps-0 fw-bold text-center text-md-start mb-3">
               Artikel Lainnya
             </h3>
             <Row>

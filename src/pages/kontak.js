@@ -1,10 +1,10 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import "../dist/css/kontak.css"
+import "../dist/css/kontak.css";
 export default function Kontak() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="section1">
+      <section className="section1">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="header-box d-flex align-items-center text-center text-md-start">
@@ -32,33 +32,35 @@ export default function Kontak() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 2 */}
-      <div className="kontak2">
+      <section className="kontak2 px-4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
-          <Container className="text-center text-md-start">
-            <Row >
-              <Col className="col-12 col-lg-6 mb-3 mb-lg-0">
-                <h1 className="fs-1">Kontak Kami</h1>
-                <p className="fs-5">
+          <Container fluid className="text-center text-md-start">
+            <Row className="d-flex justify-content-between">
+              <Col className="mb-3 mb-lg-0">
+                <h1 className="">
+                  Kontak <br /> Kami
+                </h1>
+                <p className="fs-5 mt-md-5">
                   Untuk Setiap Pertanyaan, perkiraan proyek atau Katakan saja
                   Halo Get Touch Anda dapat menelepon atau mengobrol Bersama
                   kami
                 </p>
               </Col>
-              <Col className="col-12 col-lg-6 ps-5 ps-md-3">
+              <Col className="infor">
                 <h4 className="mb-2 mb-lg-0">Number</h4>
                 <p>(229) 555-0109</p>
                 <p>(405) 555-0128</p>
                 <h4>Office Address</h4>
                 <p>4140 Parker Rd.Richardson California 62639</p>
-                <Button>Kontak Kami</Button>
+                <Button className="mt-2 mt-md-5">Kontak Kami</Button>
               </Col>
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
     </>
   );
 }

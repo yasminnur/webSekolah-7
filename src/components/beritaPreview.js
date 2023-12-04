@@ -10,20 +10,20 @@ export default function GaleriPreview() {
   }, []);
   return (
     <>
-      <Container fluid className="px-4">
-      <Row className="d-flex justify-content-center">
-        {jsonData.map((item, index) => (
-          <Col key={index} xs={12} sm={12} md={4} lg={4} xl={2} className="mb-4">
-            <Card style={{ width: "100%"}}>
-              <Card.Img src={item.img} className="object-cover" />
-              <Card.Body className="ps-0">
-                <Card.Text>{item.date}</Card.Text>
-                <Card.Title>{item.title}</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
+      <Container fluid className="">
+  <Row className="">
+    {jsonData.map((item, index) => (
+      <Col key={index} xs={12} sm={12} md={4} lg={4} xl={3} className="mb-4">
+        <Card style={{ width: "100%" }}>
+          <Card.Img src={item.img} className="object-cover" />
+          <Card.Body className="ps-0">
+            <Card.Text>{item.date}</Card.Text>
+            <Card.Title>{item.title}</Card.Title>
+          </Card.Body>
+        </Card>
+      </Col>
+    ))}
+  </Row>
       </Container>
     </>
   );

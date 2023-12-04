@@ -5,7 +5,7 @@ export default function Galeri() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="section1">
+      <section className="section1">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="header-box d-flex align-items-center text-center text-md-start">
@@ -32,10 +32,10 @@ export default function Galeri() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 2 */}
-      <div className="galeri2">
+      <section className="galeri2 px-4 mt-5 mt-md-0">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row>
@@ -46,7 +46,7 @@ export default function Galeri() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
     </>
   );
 }

@@ -13,7 +13,7 @@ export default function About() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="section1 ">
+      <section className="section1 ">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="header-box d-flex align-items-center text-center text-md-start">
@@ -41,10 +41,10 @@ export default function About() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 2 */}
-      <div className="about2">
+      <section className="about2">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="text-center justify-content-center ">
@@ -66,60 +66,69 @@ export default function About() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 3 */}
-      <div className="about3">
+      <section className="about3">
         <header className="w-100 min-vh-100 d-flex align-items-center">
-          <Container>
-            <Row className="text-center justify-content-center text-md-start justify-content-md-start">
-              <Col className="d-flex align-items-center mb-5 mb-md-0 ">
+          <Container className="">
+            <Row className="text-center justify-content-center text-md-start justify-content-lg-start">
+              <Col className="d-flex align-items-center mb-5 mb-lg-0 justify-content-center justify-content-lg-start">
                 <h1 className="my-auto fs-1 fw-bold">
                   Keunggulan Sekolah Kami
                 </h1>
               </Col>
-              <Col className="unggul col-8 ms-1">
-                <Row className="unggul1 align-items-center justify-content-md-start justify-content-center">
-                  <Col xs="auto">
-                    <img src="./assets/beranda/book.png" alt="ilustrasi" />
-                  </Col>
-                  <Col className="mt-3 mt-md-0">
-                    <h4 className="fs-4">Menggunakan Kurikulum Terbaru</h4>
-                    <p className="fs-5">
-                      Menerapkan kurikulum terbaru saat proses belajar
-                    </p>
-                  </Col>
-                </Row>
-                <Row className="unggul2 align-items-center justify-content-md-start justify-content-center">
-                  <Col xs="auto">
-                    <img src="./assets/beranda/clock.png" alt="ilustrasi" />
-                  </Col>
-                  <Col className="mt-3 mt-md-0">
-                    <h4 className="fs-4">Efektivitas Waktu Saat Belajar di Sekolah
-                    </h4>
-                    <p className="fs-5">Waktu belajar yang dirancang agar para siswa tidak jenuh
-                    </p>
-                  </Col>
-                </Row>
-                <Row className="unggul3 align-items-center justify-content-md-start justify-content-center">
-                  <Col xs="auto">
-                    <img src="./assets/beranda/pen.png" alt="ilustrasi" />
-                  </Col>
-                  <Col className="mt-3 mt-md-0">
-                    <h4 className="fs-4">Penyaluran Bakat dan Minat Siswa</h4>
-                    <p className="fs-5">
-                      Berbagai macam kegiatan akademik maupun non-akademik
-                    </p>
-                  </Col>
-                </Row>
+              <Col className="unggul col-12 col-8 col-md-9 col-lg-8 ms-1 ">
+                <div className="">
+                  <Row className="unggul1 align-items-center justify-content-center flex-column flex-md-row">
+                    <Col xs="auto" className="order-md-first mb-3 mb-md-0">
+                      <img src="./assets/beranda/book.png" alt="ilustrasi" />
+                    </Col>
+                    <Col className="order-md-last text-center text-md-start">
+                      <h4 className="fs-4">Menggunakan Kurikulum Terbaru</h4>
+                      <p className="fs-5">
+                        Menerapkan kurikulum terbaru saat proses belajar
+                      </p>
+                    </Col>
+                  </Row>
+                </div>
+                <div className="">
+                  <Row className="unggul2 align-items-center justify-content-center flex-column flex-md-row">
+                    <Col xs="auto" className="order-md-first mb-3 mb-md-0">
+                      <img src="./assets/beranda/clock.png" alt="ilustrasi" />
+                    </Col>
+                    <Col className="order-md-last text-center text-md-start">
+                      <h4 className="fs-4">
+                        Efektivitas Waktu Saat Belajar di Sekolah
+                      </h4>
+                      <p className="fs-5">
+                        Waktu belajar yang dirancang agar para siswa tidak jenuh
+                      </p>
+                    </Col>
+                  </Row>
+                </div>
+                <div className="">
+                  <Row className="unggul3 align-items-center justify-content-center flex-column flex-md-row">
+                    <Col xs="auto" className="order-md-first mb-3 mb-md-0">
+                      <img src="./assets/beranda/pen.png" alt="ilustrasi" />
+                    </Col>
+                    <Col className="order-md-last text-center text-md-start">
+                      <h4 className="fs-4">Penyaluran Bakat dan Minat Siswa</h4>
+                      <p className="fs-5">
+                        Berbagai macam kegiatan akademik maupun non-akademik
+                      </p>
+                    </Col>
+                  </Row>
+                </div>
+                
               </Col>
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 4 */}
-      <div className="about4">
+      <section className="about4">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="block">
             <Row className="tulisan text-center">
@@ -163,10 +172,10 @@ export default function About() {
             </Row>
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 5 */}
-      <div className="about5">
+      <section className="about5">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container className="">
             <Row>
@@ -177,10 +186,10 @@ export default function About() {
             <Guru />
           </Container>
         </header>
-      </div>
+      </section>
 
       {/* SECTION 6 */}
-      <div className="about6">
+      <section className="about6">
         <header className="w-100 min-vh-100 d-flex align-items-center">
           <Container>
             <Row className="text-center">
@@ -193,7 +202,7 @@ export default function About() {
             <Sponsor />
           </Container>
         </header>
-      </div>
+      </section>
     </>
   );
 }

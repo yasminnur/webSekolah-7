@@ -14,3 +14,8 @@
 .galeri2 .card-img {
     border-radius: 8px;
 }
+
+.galeri2 h1 {
+    color: #404040;
+font-family: SF Pro Rounded, sans-serif;
+}

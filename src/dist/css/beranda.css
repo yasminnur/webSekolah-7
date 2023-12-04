@@ -1,12 +1,12 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
 /* SMALL */
 @media (min-width: 320px) {
   .section2 .h1 {
     color: #fff;
     font-family: SF Pro Rounded;
-    /* font-size: 48px; */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -64,6 +64,13 @@
     height: 220px; /* Atur tinggi gambar sesuai kebutuhan Anda */
     object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
   }
+
+  .beranda6 .nav-link {
+    color: #8F8F8F;
+  }
+  .beranda6 .lihat-semua{
+    color: #2ED67B;
+  }
 }
 
 /* MEDIUM  */
@@ -118,6 +125,10 @@
   .kegiatan .card-img {
     height: 215px; /* Atur tinggi gambar sesuai kebutuhan Anda */
     object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
+  }
+
+  .beranda6 .nav-menu .nav-link.active {
+    border-bottom: 2px solid #2ECB89;
   }
 }
 
@@ -258,9 +269,9 @@ a {
   text-decoration: none;
 }
 
-.beranda6 .nav .nav-link {
+/* .beranda6 .nav .nav-link {
   color: black;
-}
+} */
 
 .kegiatan h1 {
   color: #404040;

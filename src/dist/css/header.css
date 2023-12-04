@@ -1,0 +1,29 @@
+.head .ppdb {
+    background-color: #2ECB89;
+    border: none;
+    border-radius: 50px;
+}
+
+.head .nav-link{
+    color: #787878;
+    font-size: 20px;
+}
+
+/* SMALL */
+@media (min-width: 320px) {
+    .head .menu .nav-link.active {
+        color: #2ECB89;
+        /* border-bottom: 2px solid #2ECB89; */
+      }
+}
+
+/* MEDIUM  */
+@media (min-width: 767px) {
+}
+
+/* LAPTOP */
+@media (min-width: 1024px) {
+    .head .menu .nav-link.active {
+        border-bottom: 2px solid #2ECB89;
+      }
+}

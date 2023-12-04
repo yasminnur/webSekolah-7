@@ -13,16 +13,16 @@ margin: 0 0 40px 0;
     position: cover;
 }
 
-.section3 .card {
+.berita3 .card {
     border: none;
     box-shadow: none;
 }
 
-.section3 .card-title {
+.berita3 .card-title {
     font-size: 18px;
 }
 
-.section3 .card-text {
+.berita3 .card-text {
     font-size: 15px;
 }
 
@@ -39,7 +39,7 @@ margin: 0 0 40px 0;
     padding: 12px;
 }
 
-.detail1 .sosmed img :hover{
+.detail1 .sosmed :hover{
     background-color: #2ED67B;
 }
 
@@ -59,6 +59,27 @@ margin: 0 0 40px 0;
     height: 200px;
     object-fit: cover;
 }
+.berita2 h2 {
+    color: #404040;
+}
+
+.berita2 p {
+    color: #787878;
+    font-size: 15px;
+}
+
+.berita2 .read-more {
+    color: #2ECB89;
+}
+
+.berita3 .nav-link {
+    color: #404040;
+    font-size: 15px;
+}
+
+.berita3 .nav .nav-link.active {
+    border-bottom: 2px solid #2ECB89;
+  }
 }
 
 /* MEDIUM */
@@ -70,13 +91,31 @@ margin: 0 0 40px 0;
 .detail1 .tanggal {
     font-size: 24px;
 }
+
+.berita2 p {
+    font-size: 17px;
 }
 
-.section3 .card-img {
+.berita3 .nav-link {
+    font-size: 17px;
+}
+}
+
+/* LAPTOP */
+@media (min-width: 1024px) {
+    .berita2 p {
+        font-size: 20px;
+    }
+
+    .berita3 .nav-link {
+        font-size: 20px;
+    }
+}
+.berita3 .card-img {
     height: 245px; /* Atur tinggi gambar sesuai kebutuhan Anda */
     object-fit: cover; /* Biarkan gambar menutupi area sesuai proporsi */
   }
 
-  .section3 .card-title{
+  .berita3 .card-title{
    margin: -12px 0 0 0;
   }
